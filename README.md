@@ -71,7 +71,7 @@ Customer Global Metals Ltd generated an AML alert with a risk score of 75. Key r
 Integrate a Large Language Model (LLM) to generate enhanced investigator narratives, case summaries and recommended next actions.
 
 ### Entity Resolution & Network Analytics
-Incorporate Quantexa-style network analysis to identify hidden relationships between customers, counterparties and transactions.
+Incorporate entity-resolution-led network analysis to identify hidden relationships between customers, counterparties and transactions.
 
 ### Dynamic Segmentation Risk Weighting
 Replace static risk scores with configurable risk-weight models driven by customer, geography and behavioural attributes.
