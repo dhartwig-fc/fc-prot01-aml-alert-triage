@@ -1,9 +1,12 @@
-[← Back to Portfolio](https://dhartwig-fc.github.io/fc-01-portfolio-site/)
+[← Back to Portfolio](https://dhartwig-fc.github.io/dan-hartwig-portfolio/)
 
 [LinkedIn](https://www.linkedin.com/in/dan-hartwig-financial-crime) | [GitHub Profile](https://github.com/dhartwig-fc)
 
 # AML Alert Triage Prototype
 This is a small Python prototype demonstrating how transaction monitoring alerts can be risk-scored and summarised for investigator review.
+
+## Status (12 November 2026)
+A learning prototype built in June 2026, kept as it was built. Its ideas have since been carried much further in **NEXUS**, the Financial Crime Intelligence Platform: a ranked alert table and a governed task queue, scored per typology across five crime families, with the case workflow on the same screen. See the public [NEXUS investigator console](https://dhartwig-fc.github.io/dan-hartwig-portfolio/projects/nexus/runtime-demo/console.html). Several of the future enhancements listed below now exist there; this repository is not being developed further.
 
 ## Context
 This project is part of my development in Python, AI-enabled financial crime transformation and transaction monitoring analytics.
@@ -24,6 +27,7 @@ The objective is to show how basic Python logic can support Financial Crime Oper
 
 ## Files
 - AML_Alert_Triage_Prototype.ipynb - Jupyter notebook containing the prototype logic
+- AML_Alert_Triage_clean.py - the notebook's logic as a plain Python script
 - sample_transactions.csv - sample AML alert dataset
 - Dashboard.png - example risk dashboard output
 - README.md - project documentation
@@ -96,7 +100,7 @@ Create a web-based dashboard showing:
 - Investigator productivity
 - Risk trends
 
-- ## Disclaimer
+## Disclaimer
 This project is a learning prototype intended for demonstration purposes only.
 
 It does not represent a production-grade AML monitoring solution and should not be used for regulatory decision-making. The scoring methodology is intentionally simplified to demonstrate Python-based risk assessment concepts.
